@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-color: #FFB9C4;
+    height: 39.2rem;
+}
+
+.first,
+.second,
+.flash,
+.camara,
+.lente1,
+.lente2,
+.lente3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    display: flex;
+    padding-top: 10rem;
+    width: 28rem;
+}
+
+.button {
+    background-color: #9C3331;
+    height: 1.5rem;
+    width: 4rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.flash {
+    background-color: #455A6D;
+    height: 2.5rem;
+    width: 5rem;
+    margin-left: 8rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.flash2 {
+    background-color: #647D94;
+    border-radius: 0.2rem;
+    height: 1rem;
+    width: 3rem;
+}
+
+.camara {
+    background-color: #F4F4F4;
+    border-radius: 3rem;
+    height: 19rem;
+    width: 34rem;
+}
+
+.lente1 {
+    background-color: #727272;
+    border-radius: 23rem;
+    height: 13rem;
+    width: 13rem;
+    border: 0.3rem solid #8A8A8A;
+}
+
+.lente2 {
+    background-color: #475359;
+    border-radius: 23rem;
+    height: 8rem;
+    width: 8rem;
+    border: 0.3rem solid #424650;
+}
+
+.lente3 {
+    background-color: #2E3A46;
+    border-radius: 23rem;
+    height: 5.6rem;
+    width: 5.6rem;
+}
+
+.sombra {
+    background-color: rgba(0,0,0,.3);
+    height: 6.5rem;
+    width: 13rem;
+    position: absolute;
+    border-top-left-radius: 6.5rem;
+    border-top-right-radius: 6.5rem;
+    transform: rotate(140deg);
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.reflexo {
+    background-color: #ABADAC;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    margin-left: 5.4rem;
+    margin-top: 3.1rem;
+}
+
+.third {
+    justify-content: center;
+    position: absolute;
+    margin-left: 24.3rem;
+}
+
+.blue,
+.green,
+.orange1,
+.orange2,
+.red {
+    width: 10.3rem;
+    height: 0.4rem;
+    margin-left: -0.6rem;
+}
+
+.blue {
+    background-color: #1193DA;
+}
+
+.green {
+    background-color: #14A346;
+}
+
+.orange1 {
+    background-color: #ED8804;
+}
+
+.orange2 {
+    background-color: #F26400;
+}
+
+.red {
+    background-color: #D7473F;
+}
